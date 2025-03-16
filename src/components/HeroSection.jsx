@@ -12,7 +12,7 @@ const HeroSection = () => {
                     <button className="btn-default apply-now">Get Started</button>
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-end hero-section__right-panel" data-aos="fade-left">
-                    <img className="section--img" src="./assets/img/dummy-hero.png" alt="" />
+                    <img className="section--img" src="./img/dummy-hero.png" alt="" />
                 </div>
             </div>
         </section>
