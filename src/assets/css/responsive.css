@@ -1,0 +1,573 @@
+@media only screen and (max-width: 1670px) {
+  .registration-form__container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .registration-form__container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .footer-section {
+    padding: 2em;
+  }
+
+  .footer-section .footer__about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 3em;
+  }
+
+  .footer__about span:nth-child(3) {
+    margin-top: 0.5em;
+  }
+
+  .footer--etc .footer__contact {
+    padding: 0;
+  }
+
+  .course__item-main {
+    width: 70%;
+    flex-direction: row;
+  }
+
+  .faq-section .container {
+    /* padding: 0 8em; */
+  }
+
+  .signup-form .form-inputs {
+    width: 80%;
+  }
+
+  .signup-form__tagline {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .hero-section__right-panel .section--img,
+  .features-item__left-panel .section--img,
+  .about-page .hero-section__right-panel .section--img {
+    width: auto !important;
+    height: 28em;
+    margin-bottom: 1em;
+  }
+
+  .hero-section .container {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .hero-section .container div:nth-child(2) {
+    order: 1;
+    width: fit-content;
+  }
+
+  .hero-section .container div:nth-child(1) {
+    order: 2;
+    width: 100%;
+    align-items: center;
+  }
+
+  .features-page .hero-section__left-panel h1 {
+    /* font-size: 60px; */
+    /* margin-top: 1em; */
+  }
+
+  .hero-section__left-panel h1,
+  .hero-section__left-panel span {
+    text-align: center;
+  }
+
+  .hero-section__left-panel span {
+    font-size: 20px;
+  }
+
+  .section--img {
+    height: auto;
+    width: 28em !important;
+  }
+
+  .features-list__item {
+    padding: 5em 2em 0em 2em;
+    height: fit-content;
+  }
+
+  .about-section div.container {
+    flex-direction: column;
+  }
+
+  .about-section__right-panel {
+    padding: 2em;
+    /* margin-top: 2em; */
+  }
+
+  .faq-section .container .accordion {
+    width: 90%;
+  }
+
+  .signup-form .form-inputs {
+    width: 90%;
+  }
+
+  .signup-form__tagline {
+    width: 95%;
+  }
+
+  .left-panel__container {
+    width: 70%;
+  }
+
+  .registration-form__container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .btn-signup {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .course__item-main {
+    padding: 2em 0;
+  }
+
+  .course__other .img__cover {
+    width: 180px;
+    height: 240px;
+  }
+
+  .registration-left-panel {
+    display: none;
+  }
+
+  .registration-page {
+    width: 100%;
+  }
+
+  .registration-page .signup-form {
+    width: 100%;
+  }
+
+  .signup-form > div {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about-section .section-content {
+    flex-direction: column !important;
+  }
+
+  .page-navbar {
+    background-color: #f1f3f6;
+  }
+
+  .navbar-brand span {
+    display: none;
+  }
+
+  .user-action .btn-login {
+    width: fit-content;
+    padding: 0;
+  }
+
+  .user-action .btn-login--text {
+    display: none;
+  }
+
+  #page_navbar div:nth-child(3) {
+    order: 2;
+  }
+
+  #page_navbar div:nth-child(4) {
+    order: 3;
+  }
+
+  .contact-us-section div {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+  }
+
+  .btn-contact {
+    margin: 2em 0 2em 0;
+  }
+
+  .contact-us__left-panel {
+    width: 100%;
+  }
+
+  .contact-us__left-panel h2,
+  .contact-us__left-panel span {
+    text-align: center;
+  }
+
+  .footer--etc .footer__contact {
+    width: 60% !important;
+  }
+
+  .footer__courses {
+    width: 40%;
+  }
+
+  .footer--etc .footer__newsletter {
+    display: none !important;
+  }
+
+  .features-hero-section .hero-section__left-panel,
+  .about-page .hero-section__left-panel {
+    order: 2;
+  }
+
+  .features-hero-section .hero-section__right-panel,
+  .about-page .hero-section__right-panel {
+    order: 1;
+    /* padding-top: 3em; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .features-hero-section .hero-section__right-panel .section--img,
+  .about-page .hero-section__right-panel .section--img {
+    width: 26em !important;
+    height: auto;
+  } */
+
+  .features-hero-section .container,
+  .about-hero-section .container {
+    flex-direction: column;
+    padding: 2em 0;
+  }
+
+  .features-hero-section .hero-section__left-panel,
+  .about-hero-section .hero-section__left-panel {
+    width: 100%;
+    padding: 3em 0 !important;
+  }
+
+  .features-list-section .container {
+    max-width: 100%;
+    padding: 0 4em;
+  }
+
+  .features-list-section .section-heading {
+    padding: 0 6em;
+  }
+
+  .faq-section .container .accordion {
+    width: 95%;
+  }
+
+  .faq-section .accordion-button {
+    padding: 2em 2em;
+  }
+
+  .faq-section .accordion-body {
+    padding: 5em 5em 5em 7em;
+  }
+
+  .login-page__right-panel {
+    display: none;
+  }
+
+  .left-panel__container {
+    width: 40%;
+  }
+
+  .about-mission .about-mission__img,
+  .about-vision .about-vision__img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 500px;
+    padding: 2em;
+  }
+
+  .registration-form__container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .course__other {
+    display: none !important;
+  }
+
+  .item-main__left-panel {
+    padding: 2em;
+    flex-grow: 1;
+  }
+
+  .item-main__right-panel {
+    padding-left: 1em;
+  }
+
+  .about-section__right-panel {
+    padding: 2em 0em 0em 0em;
+    text-align: center;
+  }
+
+  .about-section .section--img,
+  .contact-us__right-panel .section--img {
+    height: auto;
+    width: 18em !important;
+  }
+
+  .courses-section {
+    padding: 4em 2em 0em 2em;
+  }
+
+  .course__item-main {
+    padding: 3em 1em;
+    width: 100%;
+  }
+
+  .item-main__left-panel {
+    padding-left: 1em !important;
+  }
+
+  .faq-section .container {
+    padding: 0;
+  }
+
+  .signup-form > div {
+    width: 80%;
+  }
+
+  .about-info {
+    padding: 5em 2em !important;
+  }
+
+  .registration-form__container {
+    padding: 4em 5em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .features-list-section .container {
+    max-width: 100%;
+    padding: 0 0em;
+  }
+
+  .left-panel__container {
+    width: 50%;
+  }
+
+  .about-info__container {
+    flex-direction: column;
+  }
+
+  .about-info__container .right-panel {
+    width: 90%;
+  }
+
+  .about-info__container .left-panel {
+    width: 250px;
+    height: 300px;
+  }
+
+  .registration-form__container .btn-default.signup {
+    width: 100%;
+  }
+
+  .signup-form > div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  .hero-section {
+    background-image: none !important;
+  }
+
+  .home-page .hero-section {
+    background-color: #e5f3fd;
+  }
+
+  .course__item-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .course__item-main .item-main__right-panel {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features-list-section .features-item {
+    flex-direction: column;
+  }
+
+  .features-list-section .section-heading {
+    padding: 0 2em;
+  }
+
+  .faq-section {
+    padding: 3em 1em;
+  }
+
+  .second-features-item .features-item__right-panel,
+  .fourth-features-item .features-item__right-panel {
+    order: 2;
+  }
+
+  .features-item__right-panel {
+    padding-bottom: 0;
+  }
+
+  .features-item__left-panel {
+    width: 100%;
+  }
+
+  .features-item__left-panel .section--img {
+    height: 15em;
+  }
+
+  .registration-page .signup-form > div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .registration-page .signup-form {
+    padding: 4em 2em !important;
+  }
+
+  .about-mission__container,
+  .about-vision__container {
+    flex-direction: column;
+  }
+
+  .about-vision__container .right-panel {
+    order: 2;
+  }
+
+  .about-mission__container .left-panel,
+  .about-vision__container .left-panel {
+    box-shadow: none;
+    text-align: center;
+  }
+
+  .registration-form__container .form-inputs__container{
+    flex-direction: column;
+    gap: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-section__right-panel .section--img,
+  .features-item__left-panel .section--img,
+  .about-page .hero-section__right-panel .section--img {
+    width: auto !important;
+    height: 20em;
+  }
+
+  .features-page .hero-section {
+    background-color: #d2f0f6;
+  }
+
+  section {
+    padding: 5em 2em;
+  }
+
+  section.hero-section {
+    padding: 7em 1em 5em 1em;
+  }
+
+  .hero-section__left-panel {
+    /* padding: 1em 0; */
+  }
+
+  .hero-section__left-panel > span {
+    font-size: 18px;
+  }
+
+  .courses-section h2 {
+    text-align: center;
+  }
+
+  .course__item-main .item-main__left-panel {
+    padding: 0;
+  }
+
+  .item-main__right-panel h4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .features-list__item {
+    padding: 1em;
+  }
+
+  .about-section h2 {
+    text-align: center;
+  }
+
+  .about-section div > span {
+    text-align: justify;
+  }
+
+  .ads-section h2 {
+    text-align: center;
+  }
+
+  .footer--etc {
+    flex-direction: column;
+  }
+
+  .footer--etc .footer__contact {
+    width: 100% !important;
+  }
+  .footer--etc .footer__courses {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-main__right-panel {
+    width: 100%;
+    padding: 2em 0 0 0;
+    text-align: center;
+  }
+
+  .faq-section {
+    padding: 3em 1em;
+  }
+
+  .features-list-section .section-heading {
+    padding: 0 1em;
+  }
+
+  .faq-section .container .accordion {
+    width: 100%;
+  }
+
+  .left-panel__container {
+    width: 80%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 500px;
+    padding: 2em;
+  }
+
+  .registration-form__container {
+    padding: 4em 3em;
+    width: 90%;
+  }
+}
