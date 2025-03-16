@@ -10,7 +10,7 @@ const Navbar = () => {
 
                 <div>
                     <a className="navbar-brand" href="./">
-                        <img src="./assets/img/dummy-logo.png" name="branding" alt="" />
+                        <img src="./img/dummy-logo.png" name="branding" alt="" />
                             <span></span>
                     </a>
 
